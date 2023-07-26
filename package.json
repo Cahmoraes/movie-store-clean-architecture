@@ -1,0 +1,17 @@
+{
+  "name": "movie-store-clean-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/statement.ts",
+  "scripts": {
+    "test": "npx vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6",
+    "vitest": "^0.33.0"
+  }
+}

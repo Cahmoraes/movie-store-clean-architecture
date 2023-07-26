@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Deve exibir relatório HTML 1`] = `
+"<h1>Rental Record for <em>martin</em></h1>
+<table>
+  <tr><td>Ran</td><td>3.5</td></tr>
+  <tr><td>Trois Couleurs: Bleu</td><td>15</td></tr>
+</table>
+<p>Amount owed is <em>18.5</em></p>
+<p>You earned <em>3</em> frequent renter points</p>
+"
+`;
+
+exports[`Deve exibir relatório textual 1`] = `
+"Rental Record for martin
+	Ran	3.5
+	Trois Couleurs: Bleu	15
+Amount owed is 18.5
+You earned 3 frequent renter points
+"
+`;
